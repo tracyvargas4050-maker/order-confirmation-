@@ -42,9 +42,8 @@ document.getElementById('booking-form').addEventListener('submit', function(e) {
     };
 
     // Replace with your actual EmailJS Service ID and Template ID
-    const serviceID = 'YOUR_SERVICE_ID';
-    const templateID = 'YOUR_TEMPLATE_ID';
-
+    const serviceID = 'service_fo67tap';
+    const templateID= template_ntl33xo
     // Trigger EmailJS to send the email
     emailjs.send(serviceID, templateID, templateParams)
         .then((response) => {
